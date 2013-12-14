@@ -19,17 +19,17 @@ local sheetData =
 {
 	width = 32,
 	height = 16,
-	numFrames = 12
+	numFrames = 19
 }
 
-local mySheet = graphics.newImageSheet( "bulletHat.png", sheetData )
+local mySheet = graphics.newImageSheet( "bullet.png", sheetData )
 
 local sequenceData = {
 
   {name = "normalRun",
    start = 1,
-   count = 12,
-   time = 400,
+   count = 19,
+   time = 1250,
    loopCount = 0,
    loopDirection = "forward"
    }
