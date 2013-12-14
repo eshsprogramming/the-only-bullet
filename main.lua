@@ -28,8 +28,8 @@ local sequenceData = {
 
   {name = "normalRun",
    start = 1,
-   count = 8,
-   time = 800,
+   count = 12,
+   time = 400,
    loopCount = 0,
    loopDirection = "forward"
    }
