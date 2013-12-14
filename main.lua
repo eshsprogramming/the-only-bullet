@@ -17,12 +17,12 @@ system.activate("multitouch")]]
 
 local sheetData =
 {
-	width = 512,
-	height = 256,
-	numFrames = 8
+	width = 32,
+	height = 16,
+	numFrames = 12
 }
 
-local mySheet = graphics.newImageSheet( "runningcat-full.png", sheetData )
+local mySheet = graphics.newImageSheet( "bullet.png", sheetData )
 
 local sequenceData = {
 
