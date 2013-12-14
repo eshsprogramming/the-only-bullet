@@ -1,0 +1,15 @@
+-- build.settings for project: ludem-dare-28
+-- Managed with http://CoronaProjectManager.com
+-- Copyright 2013 . All Rights Reserved.
+-- cpmgen build.settings
+settings =
+{
+	orientation =
+	{
+		supported =
+		{
+			"landscapeLeft","landscapeRight","portrait","portraitUpsideDown"
+		},
+	},
+
+}
