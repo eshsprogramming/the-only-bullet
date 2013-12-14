@@ -22,7 +22,7 @@ local sheetData =
 	numFrames = 12
 }
 
-local mySheet = graphics.newImageSheet( "bullet.png", sheetData )
+local mySheet = graphics.newImageSheet( "bulletHat.png", sheetData )
 
 local sequenceData = {
 
