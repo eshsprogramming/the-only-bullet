@@ -33,8 +33,7 @@ local sequenceData = {
    loopCount = 0,
    loopDirection = "forward"
    }
-}
-
+}
 local animation = display.newSprite(mySheet, sequenceData)
 animation.x = display.contentWidth/2
 animation.y = display.contentHeight/2
