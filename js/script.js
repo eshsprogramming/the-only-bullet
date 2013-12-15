@@ -8,6 +8,8 @@ function init() {
 	}
 }
 
+
+
 function draw(timestamp) {
 	var canvas = document.getElementById("gameCanvas");
 	var ctx = canvas.getContext("2d");
@@ -16,16 +18,16 @@ function draw(timestamp) {
 		start = timestamp;
 	}
 	var x = -(timestamp-start);*/
-	console.log(timestamp/1000);
+	console.log(timestamp/10);
 	//console.log(start);
 	
 	ctx.clearRect(0,0,1000,700);
 	ctx.fillRect(0,timestamp/100,25,25);
 	
-	for (var h=0; h<20; h++) {
-		for (var i=0; i<20; i++) {
-			ctx.fillStyle = "rgba(" + 0 + "," + 12*i + "," + 12*h + ",0.5)";
-			ctx.fillRect (25*h, 25*i, 25, 25);
+	for (var h=0; h<32; h++) {
+		for (var i=0; i<24; i++) {
+			ctx.fillStyle = "rgba(" + 0 + "," + i*12 + "," + 8*h + ",0.5)";
+			ctx.fillRect (20*h, 20*i, 20, 20);
 		}
 	}
 	
