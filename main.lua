@@ -19,7 +19,7 @@ for i=1,10 do
     )
 	end
 end
-
+	
 local bullet = display.newImage("assets/images/bullet.png", 150, 50)
 physics.addBody(bullet, {density=0.5, friction=0.1, bounce=0.25})
 bullet.isBullet = true
@@ -29,6 +29,9 @@ bullet:applyLinearImpulse(math.random(-10,10),10,bullet.x,bullet.y)
 local function myTouchListener( event )
   bullet.x = event.x
   bullet.y = event.y
+  bullet:setLinearVelocity(0,0)
 end
+
+bullet.gravityScale = 0
 
 Runtime:addEventListener( "touch", myTouchListener )
